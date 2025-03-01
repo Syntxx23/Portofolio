@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="style.css">
+    <title>Olivia Portfolio</title>
+</head>
+<body>
+        <!-- Tombol Toggle Menu -->
+    <a class="menu-toggle rounded" href="#"><i class="fas fa-bars"></i></a>
+
+    <!-- Sidebar Menu -->
+    <nav id="sidebar-wrapper">
+        <ul class="sidebar-nav">
+            <a href="#page-top" class="sidebar-brand logo" data-aos="zoom-in" data-aos-duration="1500" >Fachrixal Sensa</a>
+            <li class="sidebar-nav-item"><a href="#home">Home</a></li>
+            <li class="sidebar-nav-item"><a href="#about">About</a></li>
+            <li class="sidebar-nav-item"><a href="#skills">Skills</a></li>
+            <li class="sidebar-nav-item"><a href="#projects">Projects</a></li>
+            <li class="sidebar-nav-item"><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    <section id="home">
+        <div class="main-container">
+            <div class="image" data-aos="zoom-out" data-aos-duration="3000">
+                <img src="image.png" alt="">
+            </div>
+            <div class="content">
+                <h1 data-aos="fade-left" data-aos-duration="1500" data-aos-delay="700">Hello ini saya <span>Fachrixal sensa</span></h1>
+                <div class="typewriter" data-aos="fade-right" data-aos-duration="1500" data-aos-delay="900">Seorang <span class="typewriter-text"></span><label for="">|</label></div>
+                <p data-aos="flip-down" data-aos-duration="1500" data-aos-delay="1100">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugit quasi commodi quia rerum, iste corporis expedita in excepturi nesciunt repellendus quisquam amet provident ad mollitia debitis odit voluptatem necessitatibus tempora.</p>
+                <div class="btn" data-aos="zoom-in" data-aos-duration="1500" data-aos-delay="1800">
+                    <button>Hire me</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="about">
+        <div class="about-container">
+            <h2>About Me</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.</p>
+        </div>
+    </section>
+    <section id="skills">
+        <div class="skills-container">
+            <h2>Skills</h2>
+            <div class="skills-grid">
+                <!-- Technical Skills -->
+                <div class="skill-category">
+                    <h3>Technical Skills</h3>
+                    <div class="skill">
+                        <div class="skill-icon">
+                            <i class="fa-brands fa-html5"></i>
+                        </div>
+                        <div class="skill-info">
+                            <span class="skill-name">HTML</span>
+                            <div class="progress-bar">
+                                <div class="progress" style="width: 80%;"></div>
+                            </div>
+                            <span class="skill-percent">80%</span>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <div class="skill-icon">
+                            <i class="fa-brands fa-css3-alt"></i>
+                        </div>
+                        <div class="skill-info">
+                            <span class="skill-name">CSS</span>
+                            <div class="progress-bar">
+                                <div class="progress" style="width: 75%;"></div>
+                            </div>
+                            <span class="skill-percent">75%</span>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <div class="skill-icon">
+                            <i class="fa-brands fa-js"></i>
+                        </div>
+                        <div class="skill-info">
+                            <span class="skill-name">JavaScript</span>
+                            <div class="progress-bar">
+                                <div class="progress" style="width: 70%;"></div>
+                            </div>
+                            <span class="skill-percent">70%</span>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <div class="skill-icon">
+                            <i class="fa-brands fa-python"></i>
+                        </div>
+                        <div class="skill-info">
+                            <span class="skill-name">Python</span>
+                            <div class="progress-bar">
+                                <div class="progress" style="width: 65%;"></div>
+                            </div>
+                            <span class="skill-percent">65%</span>
+                        </div>
+                    </div>
+                </div>
+    
+                <!-- Professional Skills -->
+                <div class="skill-category">
+                    <h3>Professional Skills</h3>
+                    <div class="professional-skills">
+                        <div class="circle-progress" data-percent="80">
+                            <div class="circle">
+                                <span class="percent">80%</span>
+                            </div>
+                            <span class="skill-name">Country</span>
+                        </div>
+                        <div class="circle-progress" data-percent="75">
+                            <div class="circle">
+                                <span class="percent">75%</span>
+                            </div>
+                            <span class="skill-name">Community</span>
+                        </div>
+                        <div class="circle-progress" data-percent="85">
+                            <div class="circle">
+                                <span class="percent">85%</span>
+                            </div>
+                            <span class="skill-name">Program Solving</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="projects">
+        <div class="projects-container">
+            <h2>Projects</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.</p>
+        </div>
+    </section>
+    <section id="contact">
+        <div class="contact-container">
+            <h2>Contact Me</h2>
+            <p>Let's Work Together</p>
+            <form class="contact-form">
+                <div class="form-group">
+                    <label for="name">Enter Your Name</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Enter Your Email</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="subject">Enter Your Subject</label>
+                    <input type="text" id="subject" name="subject" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Enter Your Message</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                </div>
+                <button type="submit">Submit</button>
+            </form>
+            <div class="social-links">
+                <a href="#" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1300"><i class="fa-brands fa-github"></i></a>
+                <a href="#" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1400"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1500"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="#" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1600"><i class="fa-brands fa-twitter"></i></a>
+            </div>
+        </div>
+    </section>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({offset:0});
+    </script>
+    <script src="script.js"></script>
+</body>
+</html>
