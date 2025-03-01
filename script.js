@@ -20,9 +20,9 @@ document.addEventListener('click', (event) => {
 // Typewriter Effect
 
 const texts = [
-    "DEVELOPER",
-    "DESIGNER",
-    "YOUTUBER"
+    "Hello",
+    "AKU",
+    "Human"
 ]
 
 let speed  =100;
