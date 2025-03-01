@@ -259,9 +259,6 @@ section {
     box-shadow: 0 0 40px #077b32;
 }
 
-.about-container,
-.skills-container,
-.projects-container,
 .contact-container {
     width: 80%;
     margin: 0 auto;
@@ -590,4 +587,4 @@ section {
         font-size: 1.5rem;
     }
 }
-       
+/* about */
